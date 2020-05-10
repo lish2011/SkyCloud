@@ -1,0 +1,12 @@
+﻿<Window x:Class="Xaml_0510.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"  
+        xmlns:myUc="clr-namespace:Xaml_0510.MyUserControl"
+        Name="mainWindow"
+        >
+    <Grid Name="mainGrid">
+        <Button Name="btn_first" Click="btn_first_Click"></Button>
+        <myUc:UcButtonTextbox x:Name="ucButtonTextbox"></myUc:UcButtonTextbox>
+    </Grid>
+</Window>
