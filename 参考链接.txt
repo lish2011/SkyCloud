@@ -1,0 +1,6 @@
+WPF´¥·¢Æ÷(Trigger¡¢DataTrigger¡¢EventTrigger)
+https://blog.csdn.net/lhx527099095/article/details/8029207
+
+¸ÊÌØÍ¼»æÖÆ
+https://github.com/syamsa/WPF-Data-Grid-Gantt-Chart
+https://github.com/danwallentin/nGantt
