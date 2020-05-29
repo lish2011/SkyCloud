@@ -4,3 +4,11 @@ https://blog.csdn.net/lhx527099095/article/details/8029207
 甘特图绘制
 https://github.com/syamsa/WPF-Data-Grid-Gantt-Chart
 https://github.com/danwallentin/nGantt
+
+我们一起写框架 MVVM的WPF框架（四）—DataGrid
+https://www.cnblogs.com/kiba/p/9753893.html
+
+.Net四个MVVM框架
+https://blog.csdn.net/loongsking/article/details/71248512
+C# WPF MVVM框架搭建
+https://blog.csdn.net/qq_36282233/article/details/83090681?utm_medium=distribute.pc_relevant_right.none-task-blog-BlogCommendFromBaidu-19.nonecase&depth_1-utm_source=distribute.pc_relevant_right.none-task-blog-BlogCommendFromBaidu-19.nonecase
