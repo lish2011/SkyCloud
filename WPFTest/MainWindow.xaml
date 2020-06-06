@@ -1,0 +1,44 @@
+﻿<Window x:Class="WPFTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPFTest" Name="this" Height="350" Width="525">
+    <StackPanel>
+        <DataGrid ItemsSource="{Binding Path=SelectedList,ElementName=this}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                
+                <DataGridTextColumn Header="文本模式" Binding="{Binding Path=Value}" />
+                
+                <DataGridComboBoxColumn Header="ComboBox模式"
+                                        SelectedValueBinding="{Binding Path=Value}"
+                                        ItemsSource="{Binding Path=SelectionList,ElementName=this}" />
+                
+                <DataGridTemplateColumn Header="Template模式">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox SelectedValue="{Binding Path=Value}"
+                                      ItemsSource="{Binding Path=SelectionList,ElementName=this}" />    
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridComboBoxColumn Header="ComboBox模式（修正）">
+                    <DataGridComboBoxColumn.ElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding Path=SelectionList,ElementName=this}" />
+                            <Setter Property="SelectedValue" Value="{Binding Path=Value}" />
+                        </Style>
+                    </DataGridComboBoxColumn.ElementStyle>
+                    <DataGridComboBoxColumn.EditingElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding Path=SelectionList,ElementName=this}" />
+                            <Setter Property="SelectedValue" Value="{Binding Path=Value}" />
+                        </Style>
+                    </DataGridComboBoxColumn.EditingElementStyle>
+                </DataGridComboBoxColumn>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="观察选中的数据" Click="Button_Click" Margin="10"/>
+        <TextBox Name="TBX_Selected" />
+    </StackPanel>
+</Window>
