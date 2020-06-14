@@ -1,4 +1,5 @@
 # https://www.cnblogs.com/ryanzheng/p/9693511.html
+# https://www.yiibai.com/postgresql/postgresql_python.html
 # 连接到数据库 #####################################################
 #!/usr/bin/python
 
