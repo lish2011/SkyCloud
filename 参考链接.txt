@@ -12,3 +12,6 @@ https://www.cnblogs.com/kiba/p/9753893.html
 https://blog.csdn.net/loongsking/article/details/71248512
 C# WPF MVVM框架搭建
 https://blog.csdn.net/qq_36282233/article/details/83090681?utm_medium=distribute.pc_relevant_right.none-task-blog-BlogCommendFromBaidu-19.nonecase&depth_1-utm_source=distribute.pc_relevant_right.none-task-blog-BlogCommendFromBaidu-19.nonecase
+
+WPF : Binding的3个属性: Source, RelativeSource, ElementName
+https://www.cnblogs.com/mrfangzheng/archive/2009/11/26/1611045.html
