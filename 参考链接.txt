@@ -15,3 +15,8 @@ https://blog.csdn.net/qq_36282233/article/details/83090681?utm_medium=distribute
 
 WPF : Binding的3个属性: Source, RelativeSource, ElementName
 https://www.cnblogs.com/mrfangzheng/archive/2009/11/26/1611045.html
+
+postgresql 数据库的备份和还原
+ https://www.cnblogs.com/SeNaiTes/p/10860470.html
+POSTGRESQL 完美备份还原
+https://www.cnblogs.com/wycc/p/6911910.html
