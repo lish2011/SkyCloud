@@ -29,7 +29,7 @@ namespace SimpleMvvmDemo.Client.ViewModels
             set
             {
                 input2 = value;
-                this.RaisePropertyChanged("Input2");
+                //this.RaisePropertyChanged("Input2");
             }
         }
 
@@ -41,7 +41,7 @@ namespace SimpleMvvmDemo.Client.ViewModels
             set
             {
                 result = value;
-                this.RaisePropertyChanged("Result");
+                //this.RaisePropertyChanged("Result");
             }
         }
 

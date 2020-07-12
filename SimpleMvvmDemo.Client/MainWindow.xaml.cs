@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -21,10 +22,18 @@ namespace SimpleMvvmDemo.Client
     /// </summary>
     public partial class MainWindow : Window
     {
+        public void DoItWhenPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("+++++++++++DoItWhenPropertyChanged++++++++++++++++++++++");
+        }
+
         public MainWindow()
         {
             InitializeComponent();
             this.DataContext = new MainWindowViewModel();
+
+            var dc = this.DataContext as MainWindowViewModel;
+            dc.PropertyChanged += DoItWhenPropertyChanged;
         }
     }
 }

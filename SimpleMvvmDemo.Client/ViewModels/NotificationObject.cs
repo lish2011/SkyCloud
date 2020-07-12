@@ -14,7 +14,10 @@ namespace SimpleMvvmDemo.Client.ViewModels
         {
             if (this.PropertyChanged != null)
             {
-                this.PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
+                System.Diagnostics.Debug.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+                //this.PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
+                this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+                System.Diagnostics.Debug.WriteLine("****************************");
             }
         }
     }
