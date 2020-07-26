@@ -20,3 +20,17 @@ postgresql 数据库的备份和还原
  https://www.cnblogs.com/SeNaiTes/p/10860470.html
 POSTGRESQL 完美备份还原
 https://www.cnblogs.com/wycc/p/6911910.html
+
+DataGridView和DataTable的使用
+https://blog.csdn.net/panliuwen/article/details/47710421?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
+
+winform窗体——布局方式
+https://www.cnblogs.com/1030351096zzz/p/6234866.html
+
+.NET常用类库知识总结
+https://www.cnblogs.com/1030351096zzz/p/6234896.html
+
+C#读取Excel的方法总结
+https://www.w3cschool.cn/csharp/csharp-4la92p9w.html
+基于BindingSource的WinForm开发
+https://www.cnblogs.com/pegasus/archive/2008/08/31/1280712.html
