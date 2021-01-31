@@ -34,3 +34,9 @@ C#读取Excel的方法总结
 https://www.w3cschool.cn/csharp/csharp-4la92p9w.html
 基于BindingSource的WinForm开发
 https://www.cnblogs.com/pegasus/archive/2008/08/31/1280712.html
+
+visual studio安装vsix插件
+https://blog.csdn.net/feinifi/article/details/107123479
+Prism Template Pack
+https://marketplace.visualstudio.com/items?itemName=BrianLagunas.PrismTemplatePack
+WPF三个必备框架的安装
