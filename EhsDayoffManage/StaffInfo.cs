@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EhsDayoffManage
 {
-    public class StaffEhsDayoffInfo
+    public class StaffInfo
     {
         public int Id { get; set; }
         public string Uid { get; set; }

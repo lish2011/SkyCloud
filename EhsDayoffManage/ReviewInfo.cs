@@ -4,20 +4,6 @@ using System.Text;
 
 namespace EhsDayoffManage
 {
-    public enum Row
-    {
-        Staff,
-        Pm,
-        Admin,        
-    }
-
-    public enum Opinion 
-    {
-        Approved,
-        Rejection,
-        UnReview
-    }
-
     public class ReviewInfo
     {
         public int Reviewer { get; set; }

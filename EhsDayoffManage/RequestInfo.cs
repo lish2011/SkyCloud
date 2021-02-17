@@ -7,7 +7,7 @@ namespace EhsDayoffManage
 {
     public class RequestInfo
     {
-        public StaffEhsDayoffInfo StaffInfo{ get; set; }
+        public StaffInfo StaffInfo{ get; set; }
         public int Submitter { get; set; }
         public DateTime SubmiteTime { get; set; }
         public DateTime Start { get; set; }
@@ -21,6 +21,12 @@ namespace EhsDayoffManage
         {
             ReviewInfos = new List<ReviewInfo>();
         }
+
+        public RequestInfo()
+        {
+            ReviewInfos = new List<ReviewInfo>();
+        }
+
 
         public void AddReviewer() 
         {
